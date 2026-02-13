@@ -2387,23 +2387,9 @@ img {
 		<section class="tsd-panel tsd-comment">
 			<div class="tsd-comment tsd-typography">
 				<div class="lead">
-					<p>Props for the RecurrenceEditor component.</p>
+					<p>Props for configuring the RecurrenceEditor component.
+					Use these to define recurrence rules and handle changes.</p>
 				</div>
-				<dl class="tsd-comment-tags">
-					<dt>interface</dt>
-					<dd><p>RecurrenceEditorProps</p>
-					</dd>
-					<dt>property</dt>
-					<dd><p>{string} [value] - The current recurrence rule string (RRULE format).</p>
-					</dd>
-					<dt>property</dt>
-					<dd><p>{(options: string) =&gt; void} [onChange] - Callback invoked when the recurrence rule changes;
-						receives the generated RRULE string.</p>
-					</dd>
-					<dt>property</dt>
-					<dd><p>{Date} [baseStart] - Optional start date used as base for deriving selectors and defaults.</p>
-					</dd>
-				</dl>
 			</div>
 		</section>
 		<section class="tsd-panel tsd-hierarchy">
@@ -2437,12 +2423,13 @@ img {
 				<div class="tsd-signature tsd-kind-icon">base<wbr>Start<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Date</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/recurrence-editor/recurrence-editor.d.ts:28</li>
+						<li>Defined in src/recurrence-editor/recurrence-editor.d.ts:20</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Optional base start date for generating derived values (defaults to now).</p>
+						<p>Base start date used for deriving selectors and defaults.
+						Defaults to current date if not provided.</p>
 					</div>
 				</div>
 			</section>
@@ -2452,18 +2439,14 @@ img {
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Change<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>options<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/recurrence-editor/recurrence-editor.d.ts:24</li>
+						<li>Defined in src/recurrence-editor/recurrence-editor.d.ts:15</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Called when the recurrence rule changes.</p>
+						<p>Callback fired when the recurrence rule changes.
+						Receives the generated RRULE string.</p>
 					</div>
-					<dl class="tsd-comment-tags">
-						<dt>param</dt>
-						<dd><p>The generated RRULE string.</p>
-						</dd>
-					</dl>
 				</div>
 				<div class="tsd-type-declaration">
 					<h4>Type declaration</h4>
@@ -2493,12 +2476,12 @@ img {
 				<div class="tsd-signature tsd-kind-icon">value<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/recurrence-editor/recurrence-editor.d.ts:18</li>
+						<li>Defined in src/recurrence-editor/recurrence-editor.d.ts:10</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>The current recurrence rule value (RRULE string).</p>
+						<p>The current recurrence rule value in RRULE format.</p>
 					</div>
 				</div>
 			</section>
