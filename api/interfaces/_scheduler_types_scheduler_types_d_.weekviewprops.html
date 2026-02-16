@@ -2403,6 +2403,9 @@ img {
 					<a href="_scheduler_types_scheduler_types_d_.weekviewprops.html#name" class="tsd-kind-icon">name</a>
 				</li>
 				<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+					<a href="_scheduler_types_scheduler_types_d_.weekviewprops.html#quickinfo" class="tsd-kind-icon">quick<wbr>Info</a>
+				</li>
+				<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
 					<a href="_scheduler_types_scheduler_types_d_.weekviewprops.html#readonly" class="tsd-kind-icon">read<wbr>Only</a>
 				</li>
 				<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
@@ -2474,6 +2477,7 @@ img {
 							<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="_scheduler_types_scheduler_types_d_.weekviewprops.html#headerindent" class="tsd-kind-icon">header<wbr>Indent</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="_scheduler_types_scheduler_types_d_.weekviewprops.html#interval" class="tsd-kind-icon">interval</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="_scheduler_types_scheduler_types_d_.weekviewprops.html#name" class="tsd-kind-icon">name</a></li>
+							<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="_scheduler_types_scheduler_types_d_.weekviewprops.html#quickinfo" class="tsd-kind-icon">quick<wbr>Info</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="_scheduler_types_scheduler_types_d_.weekviewprops.html#readonly" class="tsd-kind-icon">read<wbr>Only</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="_scheduler_types_scheduler_types_d_.weekviewprops.html#showweeknumber" class="tsd-kind-icon">show<wbr>Week<wbr>Number</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="_scheduler_types_scheduler_types_d_.weekviewprops.html#showweekend" class="tsd-kind-icon">show<wbr>Weekend</a></li>
@@ -2630,7 +2634,7 @@ img {
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Provides a factory function for rendering a custom editor popup; defaults to the built‑in editor if not specified.
+						<p>Provides a factory function for rendering a custom editor popup; defaults to the built-in editor if not specified.
 						View-level editor props override root-level editor when both are provided.</p>
 					</div>
 					<dl class="tsd-comment-tags">
@@ -2854,6 +2858,28 @@ img {
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
 						<dd><p>-</p>
+						</dd>
+					</dl>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+				<a name="quickinfo" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagOptional">Optional</span> quick<wbr>Info</h3>
+				<div class="tsd-signature tsd-kind-icon">quick<wbr>Info<span class="tsd-signature-symbol">:</span> <a href="_scheduler_types_scheduler_types_d_.schedulerquickinfoprops.html" class="tsd-signature-type">SchedulerQuickInfoProps</a></div>
+				<aside class="tsd-sources">
+					<p>Inherited from <a href="_scheduler_scheduler_d_.ischeduler.html">IScheduler</a>.<a href="_scheduler_scheduler_d_.ischeduler.html#quickinfo">quickInfo</a></p>
+					<ul>
+						<li>Defined in src/scheduler/types/scheduler-types.d.ts:139</li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Accepts custom React components to render different sections of the Quick Info Popup.
+						Supports separate customization for new event creation (add) and existing event view (edit).</p>
+					</div>
+					<dl class="tsd-comment-tags">
+						<dt>default</dt>
+						<dd><p>null</p>
 						</dd>
 					</dl>
 				</div>

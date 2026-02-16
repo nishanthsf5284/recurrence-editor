@@ -2363,6 +2363,9 @@ img {
 </header>
 <nav class="tsd-navigation secondary">
 	<ul>
+		<li class=" tsd-kind-interface tsd-parent-kind-external-module">
+			<a href="_recurrence_editor_types_d_.recurrencechangeevent.html" class="tsd-kind-icon">Recurrence<wbr>Change<wbr>Event</a>
+		</li>
 		<li class="current tsd-kind-interface tsd-parent-kind-external-module">
 			<a href="_recurrence_editor_types_d_.recurrenceeditoroptions.html" class="tsd-kind-icon">Recurrence<wbr>Editor<wbr>Options</a>
 			<ul>
@@ -2405,6 +2408,9 @@ img {
 			</ul>
 		</li>
 		<li class=" tsd-kind-interface tsd-parent-kind-external-module">
+			<a href="_recurrence_editor_types_d_.recurrenceeditorref.html" class="tsd-kind-icon">Recurrence<wbr>Editor<wbr>Ref</a>
+		</li>
+		<li class=" tsd-kind-interface tsd-parent-kind-external-module">
 			<a href="_recurrence_editor_types_d_.recurrencestate.html" class="tsd-kind-icon">Recurrence<wbr>State</a>
 		</li>
 		<li class=" tsd-kind-type-alias tsd-parent-kind-external-module">
@@ -2417,19 +2423,22 @@ img {
 			<a href="../modules/_recurrence_editor_types_d_.html#dayweektype" class="tsd-kind-icon">Day<wbr>Week<wbr>Type</a>
 		</li>
 		<li class=" tsd-kind-type-alias tsd-parent-kind-external-module">
-			<a href="../modules/_recurrence_editor_types_d_.html#freqtype" class="tsd-kind-icon">Freq<wbr>Type</a>
-		</li>
-		<li class=" tsd-kind-type-alias tsd-parent-kind-external-module">
-			<a href="../modules/_recurrence_editor_types_d_.html#monthlytype" class="tsd-kind-icon">Monthly<wbr>Type</a>
+			<a href="../modules/_recurrence_editor_types_d_.html#endtype" class="tsd-kind-icon">End<wbr>Type</a>
 		</li>
 		<li class=" tsd-kind-type-alias tsd-parent-kind-external-module">
 			<a href="../modules/_recurrence_editor_types_d_.html#repeat" class="tsd-kind-icon">Repeat</a>
 		</li>
 		<li class=" tsd-kind-type-alias tsd-parent-kind-external-module">
-			<a href="../modules/_recurrence_editor_types_d_.html#repeatmode" class="tsd-kind-icon">Repeat<wbr>Mode</a>
+			<a href="../modules/_recurrence_editor_types_d_.html#repeattype" class="tsd-kind-icon">Repeat<wbr>Type</a>
 		</li>
 		<li class=" tsd-kind-type-alias tsd-parent-kind-external-module">
-			<a href="../modules/_recurrence_editor_types_d_.html#yearruletype" class="tsd-kind-icon">Year<wbr>Rule<wbr>Type</a>
+			<a href="../modules/_recurrence_editor_types_d_.html#weekdayitem" class="tsd-kind-icon">Week<wbr>Day<wbr>Item</a>
+		</li>
+		<li class=" tsd-kind-variable tsd-parent-kind-external-module">
+			<a href="../modules/_recurrence_editor_types_d_.html#repeatmodedatasource" class="tsd-kind-icon">repeat<wbr>Mode<wbr>Data<wbr>Source</a>
+		</li>
+		<li class=" tsd-kind-variable tsd-parent-kind-external-module">
+			<a href="../modules/_recurrence_editor_types_d_.html#repeattypedatasource" class="tsd-kind-icon">repeat<wbr>Type<wbr>Data<wbr>Source</a>
 		</li>
 	</ul>
 </nav>
@@ -2475,17 +2484,17 @@ img {
 				<div class="tsd-signature tsd-kind-icon">end<wbr>Count<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/recurrence-editor/types.d.ts:27</li>
+						<li>Defined in src/recurrence-editor/types.d.ts:40</li>
 					</ul>
 				</aside>
 			</section>
 			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 				<a name="endtype" class="tsd-anchor"></a>
 				<h3>end<wbr>Type</h3>
-				<div class="tsd-signature tsd-kind-icon">end<wbr>Type<span class="tsd-signature-symbol">:</span> <a href="../modules/_recurrence_editor_types_d_.html#repeatmode" class="tsd-signature-type">RepeatMode</a></div>
+				<div class="tsd-signature tsd-kind-icon">end<wbr>Type<span class="tsd-signature-symbol">:</span> <a href="../modules/_recurrence_editor_types_d_.html#endtype" class="tsd-signature-type">EndType</a></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/recurrence-editor/types.d.ts:26</li>
+						<li>Defined in src/recurrence-editor/types.d.ts:39</li>
 					</ul>
 				</aside>
 			</section>
@@ -2495,7 +2504,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">interval<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/recurrence-editor/types.d.ts:25</li>
+						<li>Defined in src/recurrence-editor/types.d.ts:38</li>
 					</ul>
 				</aside>
 			</section>
@@ -2505,7 +2514,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">locale<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/recurrence-editor/types.d.ts:29</li>
+						<li>Defined in src/recurrence-editor/types.d.ts:42</li>
 					</ul>
 				</aside>
 			</section>
@@ -2515,7 +2524,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">month<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/recurrence-editor/types.d.ts:33</li>
+						<li>Defined in src/recurrence-editor/types.d.ts:46</li>
 					</ul>
 				</aside>
 			</section>
@@ -2525,7 +2534,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">month<wbr>Day<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/recurrence-editor/types.d.ts:32</li>
+						<li>Defined in src/recurrence-editor/types.d.ts:45</li>
 					</ul>
 				</aside>
 			</section>
@@ -2535,7 +2544,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">repeat<wbr>Mode<span class="tsd-signature-symbol">:</span> <a href="../modules/_recurrence_editor_types_d_.html#repeat" class="tsd-signature-type">Repeat</a></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/recurrence-editor/types.d.ts:24</li>
+						<li>Defined in src/recurrence-editor/types.d.ts:37</li>
 					</ul>
 				</aside>
 			</section>
@@ -2545,7 +2554,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">start<wbr>Time<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Date</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/recurrence-editor/types.d.ts:30</li>
+						<li>Defined in src/recurrence-editor/types.d.ts:43</li>
 					</ul>
 				</aside>
 			</section>
@@ -2555,7 +2564,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">until<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Date</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/recurrence-editor/types.d.ts:28</li>
+						<li>Defined in src/recurrence-editor/types.d.ts:41</li>
 					</ul>
 				</aside>
 			</section>
@@ -2565,7 +2574,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">week<wbr>Day<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/recurrence-editor/types.d.ts:35</li>
+						<li>Defined in src/recurrence-editor/types.d.ts:48</li>
 					</ul>
 				</aside>
 			</section>
@@ -2575,7 +2584,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">week<wbr>Days<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/recurrence-editor/types.d.ts:31</li>
+						<li>Defined in src/recurrence-editor/types.d.ts:44</li>
 					</ul>
 				</aside>
 			</section>
@@ -2585,7 +2594,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">week<wbr>Number<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/recurrence-editor/types.d.ts:34</li>
+						<li>Defined in src/recurrence-editor/types.d.ts:47</li>
 					</ul>
 				</aside>
 			</section>
